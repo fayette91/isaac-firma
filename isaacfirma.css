@@ -1,0 +1,48 @@
+:root{
+  --bckg-1: #e1e1e1;
+  --bckg-2: #e9e9e9;
+  --bckg-3: #d1d1d1;
+  --acc-1: #c8977e;
+  --gr1: #D2A797;
+  --gr2: #7E2E39;
+  --brd-c: #f2f2f2;
+  --txsh-c: #fafafa;
+  --brd-c-h: #e9e9e9;
+  --color-text: #777;
+  --ctext: #999;
+  --cicon: var(--bckg-3);
+  --ciudadanos: #6A93B5;
+  --celebridades: #6F628A;
+  --sanidad: #7DAE9B;
+  --seguridad: #7c3535;
+  --empresarios: #873E65;
+  --criminales: #323A5F;
+  --pesca: #4D919F;
+  --refineria: #5D7260;
+  --sami: #B88A99; 
+  --comercio-industria: #BFB069;
+  --pnj: #b2c4cb;
+  --fnt-title: 'Lemonglory';
+  --txsh: --txsh: 1px 1px var(--txsh-c), -1px 1px var(--txsh-c), 1px -1px var(--txsh-c), -1px -1px var(--txsh-c);
+  --fnt-text: "Sofia Sans Semi Condensed", sans-serif;
+  --grd: linear-gradient(to left, var(--accent), hsl(from var(--accent) calc(h + var(--hsl)) s l));
+  --seletxt: #b58c5a;
+}
+
+.sac-s-bx {width: 300px; height: 180px; margin: auto; position: relative; background: var(--bckg-3); padding: 10px; outline: 1px solid var(--criminales); transition: all ease-in-out 0.7s; overflow: hidden}
+
+.sac-s-bx:hover {transition: all ease-in-out 0.7s}
+
+.sac-s-bx img {width: 300px; height: 180px; margin: auto; transition: all ease-in-out 0.7s}
+
+.sac-s-bx:hover img {transition: all ease-in-out 0.7s; filter: grayscale(1) brightness(40%)}
+
+.sac-ic {width: auto; height: auto; margin: -170px 0px 0px 80px; position: absolute; font-size: 140px; color: var(--criminales); transition: all ease-in-out 0.7s; opacity: 0; filter: blur(2px)}
+
+.sac-s-bx:hover .sac-ic {transition: all ease-in-out 0.7s; opacity: 0.5; transition-delay: 0.5s; filter:blur(0px)}
+
+.sac-s-txt {width: 180px; height: auto; margin: -110px 0px 0px 70px; position: absolute; font-family: inconsolata; font-size: 13px; text-transform: uppercase; color: #eee; font-weight: bold; line-height: 150%; transition: all ease-in-out 0.7s; opacity: 0; filter: blur(2px)}
+
+.sac-s-txt span {background: var(--criminales); padding: 2px; color: #111}
+
+.sac-s-bx:hover .sac-s-txt {transition: all ease-in-out 0.7s; opacity: 1; transition-delay: 0.7s; filter: blur(0px)}
